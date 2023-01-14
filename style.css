@@ -1,0 +1,90 @@
+@import url("file:///home/shadow/.cache/wal/colors.css");
+
+:root {
+  --bg: var(--color0);
+  --fg: var(--color7);
+  --second-bg: var(--color2);
+  --blue: var(--color0);
+}
+
+body {
+  font-family: "Hack";
+  background-color: var(--bg);
+  color: var(--fg);
+  margin: auto;
+  width: 60%;
+}
+
+.content {
+  margin-top: 22%;
+}
+
+#time {
+  font-size: 70px;
+  text-align: center;
+}
+
+#date {
+  font-size: 20px;
+  text-align: center;
+}
+
+input {
+  background-color: var(--bg);
+  border: none;
+  font-size: 20px;
+  color: var(--fg);
+  border-bottom: 3px solid var(--fg);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+input:focus {
+  border-color: var(--blue);
+  outline: none;
+}
+
+#weather {
+  position: absolute;
+  top: 0px;
+  right: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--blue);
+  display: block;
+  margin-right: 0%;
+  display: inline-block;
+  padding: 2px 0px;
+}
+
+a::before {
+  content: "> ";
+}
+
+#links {
+  margin-top: 25px;
+  display: flex;
+  font-size: 20px;
+  flex-wrap: wrap;
+}
+
+.list {
+  background-color: var(--second-bg);
+  border-radius: 10px;
+  margin: 3px;
+  flex: 1 1 0%;
+}
+
+ul {
+  list-style-type: none;
+  font-weight: bold;
+  font-size: 13px;
+  padding-left: 30px;
+}
+
+#st {
+  margin: 0px;
+}
